@@ -11,9 +11,8 @@ class MultiPage:
         # Configure the page
         st.set_page_config(
             page_title = self.app_name,
-            # page_icon = ":screen:",
             page_icon = "💻",
-            # page_icon = "🖥️"
+            # page_icon = "🖥️",
         )
     
     # Create class method to add pages to object

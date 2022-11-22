@@ -2,8 +2,15 @@
 File to show the main  commands and widgets from Streamlit.
 """
 import streamlit as st
-st.write("Hello world!!!!")
-st.write("---")
+from app_pages.multi_page import MultiPage
+
+from app_pages.page_commands_and_widgets import page_commands_and_widgets_body
+
+app = MultiPage(app_name = "Commands and Widgets")
+
+app.app_page("Commands & Widgets", page_commands_and_widgets_body)
+
+app.run()
 
 
 
