@@ -3,7 +3,10 @@ import streamlit as st
 def page_commands_and_widgets_body():
 
     st.write("### Streamlit Commands and Widgets ")
+    st.markdown(f'Documentation: https://docs.streamlit.io/library/api-reference\n', unsafe_allow_html=False)
+    st.markdown(f'Repo : https://github.com/roeszler/dataset-testing\n', unsafe_allow_html=False)
     st.write("---")
+
 
     st.write("Hello world!!!!")
     st.write("---")

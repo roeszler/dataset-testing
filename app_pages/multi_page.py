@@ -8,7 +8,7 @@ class MultiPage:
         self.pages = [] # Set pages to be an empty list.
         self.app_name = app_name # Give the method argument of app_name value of app_name.
 
-        # Configure the page
+        # Configure the page using streamlit .method
         st.set_page_config(
             page_title = self.app_name,
             page_icon = "💻",
@@ -23,6 +23,7 @@ class MultiPage:
     # Method to run the object
     def run(self):
         st.title(self.app_name) # creates title
+        
         # add a sidebar menu, consisting of radio buttons
         # Situated on the left-hand side of the page.
         # With a radio button for each of the pages.
