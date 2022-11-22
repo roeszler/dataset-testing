@@ -18,7 +18,7 @@ class MultiPage:
     
     # Create class method to add pages to object
     # Output is none
-    def app_page(self, title, func) -> None:
+    def add_page(self, title, func) -> None:
         self.pages.append({"title": title, "function": func})
 
     # Method to run the object
