@@ -1,3 +1,13 @@
+| Variable | Meaning | Units | Data Format | Data Type |
+|---|---|---|---|---|
+| Data_no | Test Number | Categorical Number 1 to 50 | Independent, Categorical | Integer / Discrete |
+ Differential_pressure | Pressure difference between upstream and downstream containment areas | Pascals (Pa = kg/m.s²) | Independent | Floating point / Continuous |
+| Flow_rate | quantity of air being moved | m3/sec | Independent | Floating point / Continuous |
+| Time | Intervals between observations within a test  as determined by sampling | 1/10th of a second | Independent | Floating point / Discrete (in this case) |
+| Dust_Feed | velocity of the particle speed | mm3/s | Independent | Floating point / Continuous |
+| Dust | 3 x types of ISO_12130 standardised dust ( A2 Fine, A3 Medium, A4 Coarse) | g/cm3 | Independent | String / Discrete Number |
+| RUL | Remaining Useful Life | Relative Units (ie 1 unit = 1 day) | Dependent | Floating point / Continuous | 
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ## Gitpod Template Instructions
