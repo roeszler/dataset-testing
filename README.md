@@ -1,3 +1,6 @@
+* <a href="https://docs.google.com/document/d/1PnWhRg7F-0idx_qIOnzNXumI0he5jXNLqjbDqvul9kY/edit?usp=sharing" target="_blank">Business Case Understanding</a>
+* [link](https://docs.google.com/document/d/1PnWhRg7F-0idx_qIOnzNXumI0he5jXNLqjbDqvul9kY/edit?usp=sharing{:target="_blank"})
+
 | Variable | Meaning | Units | Data Format | Data Type |
 |---|---|---|---|---|
 | Data_no | Test Number | Categorical Number 1 to 50 | Independent, Categorical | Integer / Discrete |
